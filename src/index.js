@@ -8,10 +8,10 @@
 // alert("Hi ${name1}, from ${homework}, who is, ${age)");
 
 
-// let title = prompt("What is your title?");
-// let name2 = prompt("What is your name?");
-// let favouriteproduct = prompt("What is your product?");
-// alert(`Hi ${title}, ${name2}, ${favouriteproduct}`);
+let title = prompt("What is your title?");
+let name2 = prompt("What is your name?");
+let favouriteproduct = prompt("What is your product?");
+alert(`Hi ${title} ${name2},  is your favorite product ${favouriteproduct}?`);
 
 let name = "Bless";
 alert(name1)
