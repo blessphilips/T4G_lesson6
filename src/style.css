@@ -2,6 +2,7 @@ h1{
     font: size 62px;
     background-color: darkred;
     border: 30px;
-    border-radius: 10px;
+    border-radius: 20px;
+    padding: 30px;
 
 }
