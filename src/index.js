@@ -30,8 +30,8 @@ alert("Hi ${name}, you are ${age} years old, and we will get keep in touch via y
 // console.log(sentence);
 // console.log(sentence1);
 
-// let smoothy1 = "milk shake is a mixture of mangoe,bananas and milk";
-// let smoothy = `hi there, 👋 ${smoothy1}`;
-// console.log(smoothy);
-// console.log(smoothy1);
+let smoothy1 = "milk shake is a mixture of mangoe,bananas and milk";
+let smoothy = `hi there, 👋 ${smoothy1}`;
+console.log(smoothy);
+console.log(smoothy1);
 
