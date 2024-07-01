@@ -18,11 +18,11 @@
 // name = "Vicky joy";
 // name = "Jacklin";
 
-let name = prompt("What is your name?");
-let age = prompt("How old are you?");
-let email = prompt("Enter your email.");
-alert("Hi ${name}, you are ${age} years old, and we will get keep in touch via your email 👋👋.");
-
+// let name = prompt("What is your name?");
+// let age = prompt("How old are you?");
+// let email = prompt("Enter your email.");
+// alert("Hi ${name}, you are ${age} years old, and we will get keep in touch via your email 👋👋.");
+ 
 // let name1 = "my name is Bless"; // example of concatination
 // let sentence = "hi there " + name1 ; // example of interpulation
 
@@ -30,8 +30,32 @@ alert("Hi ${name}, you are ${age} years old, and we will get keep in touch via y
 // console.log(sentence);
 // console.log(sentence1);
 
-let smoothy1 = "milk shake is a mixture of mangoe,bananas and milk";
-let smoothy = `hi there, 👋 ${smoothy1}`;
-console.log(smoothy);
-console.log(smoothy1);
+// let smoothy1 = "milk shake is a mixture of mangoe,bananas and milk";
+// let smoothy = `hi there, 👋 ${smoothy1}`;
+// console.log(smoothy);
+// console.log(smoothy1);
+let name = prompt("What is your name?");
+let age = prompt("Tell us your age.");
+let email = prompt("Enter your email");
+if(age < 12 ){
+    alert(`Hi ${name}, you are ${age} years old and you are too young to register. Sorry 😔😔.`);
+} else if(age > 12 && age < 18){
+alert(`Hi ${name}, you are ${age} years old and you have limited options to register for. We will keep in touch via your ${email} 👋👋.`);
+} else if(age == 18 || age > 18 ){`Hi ${name}, you are ${age} years old and you can register for any option of your choosing. We will keep in touch via your ${email} 👋👋`;
+}else{
+    alert(`Hi ${name}, you are ${age} years old and we are happy to have you here. Have a nice day`);
+}
+
+
+
+
+// let name = prompt("What is your name?");
+// if(name == "Bless"){
+//     console.log(name);
+//     alert("Hi Beautiful 🙋‍♀️");
+// }
+// else{
+//     console.log(name);
+//     alert("Hi there");
+// }
 

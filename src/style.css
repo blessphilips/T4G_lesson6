@@ -1,8 +1,18 @@
-h1{
+/* h1{
     font: size 62px;
     background-color: darkred;
     border: 30px;
     border-radius: 20px;
     padding: 30px;
 
+} */
+
+h1{
+    font-size: 50px;
+    background-color: coral;
+    border: 20px;
+    border-radius: 20px;
+    padding: 30px;
+    text-align: center;
+    font-style: italic;
 }
