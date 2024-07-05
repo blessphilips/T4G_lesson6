@@ -9,10 +9,26 @@
 
 h1{
     font-size: 50px;
-    background-color: coral;
+    background-color: greenyellow;
     border: 20px;
     border-radius: 20px;
     padding: 30px;
     text-align: center;
     font-style: italic;
+}
+p{
+    background-color: lawngreen;
+    text-align: center;
+    font-size: larger;
+    padding: 30px;
+    border-radius: 10px;
+
+}
+.pdivs{
+    width: 50%;
+    margin: auto;
+
+}
+#pfour{
+display: none; /* hides the fourth paragraph*/
 }

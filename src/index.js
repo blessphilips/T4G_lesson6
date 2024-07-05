@@ -14,7 +14,7 @@
 // alert(`Hi ${title} ${name2},  is your favorite product ${favouriteproduct}?`);
 
 // let name = "Bless";
-// alert(name1)
+// alert(name1);
 // name = "Vicky joy";
 // name = "Jacklin";
 
@@ -34,17 +34,17 @@
 // let smoothy = `hi there, 👋 ${smoothy1}`;
 // console.log(smoothy);
 // console.log(smoothy1);
-let name = prompt("What is your name?");
-let age = prompt("Tell us your age.");
-let email = prompt("Enter your email");
-if(age < 12 ){
-    alert(`Hi ${name}, you are ${age} years old and you are too young to register. Sorry 😔😔.`);
-} else if(age > 12 && age < 18){
-alert(`Hi ${name}, you are ${age} years old and you have limited options to register for. We will keep in touch via your ${email} 👋👋.`);
-} else if(age == 18 || age > 18 ){`Hi ${name}, you are ${age} years old and you can register for any option of your choosing. We will keep in touch via your ${email} 👋👋`;
-}else{
-    alert(`Hi ${name}, you are ${age} years old and we are happy to have you here. Have a nice day`);
-}
+// let name = prompt("What is your name?");
+// let age = prompt("Tell us your age.");
+// let email = prompt("Enter your email");
+// if(age < 12 ){
+//     alert(`Hi ${name}, you are ${age} years old and you are too young to register. Sorry 😔😔.`);
+// } else if(age > 12 && age < 18){
+// alert(`Hi ${name}, you are ${age} years old and you have limited options to register for. We will keep in touch via your ${email} 👋👋.`);
+// } else if(age == 18 || age > 18 ){`Hi ${name}, you are ${age} years old and you can register for any option of your choosing. We will keep in touch via your ${email} 👋👋`;
+// }else{
+//     alert(`Hi ${name}, you are ${age} years old and we are happy to have you here. Have a nice day`);
+// }
 
 
 
@@ -58,4 +58,34 @@ alert(`Hi ${name}, you are ${age} years old and you have limited options to regi
 //     console.log(name);
 //     alert("Hi there");
 // }
+ 
+
+function findMe(){
+    let pfour = document.getElementById("pfour");
+    pfour.style.display = "block"; //brings back the hidden paragraph
+}
+   let pthree = document.getElementById("pthree");
+    pthree.addEventListener("click",findMe);
+
+    pthree = document.getElementById("pthree");
+    pthree.style.border="6px dotted orange";
+    pthree.style.display="block";
+
+function changebackground(){
+    pone.style.backgroundColor = "purple"; //changes the color to purple
+    pone.style.color = "white";
+}
+    let pone = document.querySelector("#pone");
+    pone.addEventListener("dblclick", changebackground);
+
+function changeWidth(){
+    ptwo.style.width = "400px";
+    ptwo.style.backgroundColor = "brown";
+    function changeNormal (){
+ptwo.style.width = "";
+    }
+    ptwo.addEventListener("mouseleave", changeNormal);
+}
+    let ptwo = document.getElementById("ptwo");
+    ptwo.addEventListener("mouseenter",changeWidth);
 
