@@ -89,3 +89,9 @@ ptwo.style.width = "";
     let ptwo = document.getElementById("ptwo");
     ptwo.addEventListener("mouseenter",changeWidth);
 
+let list = document.getElementById("topic");
+list.style.backgroundColor = "purple";
+list.innerHTML = "I'm done learning JS";
+
+
+
